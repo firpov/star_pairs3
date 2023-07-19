@@ -1,10 +1,10 @@
 # Star pairs
-[![Join the chat at https://gitter.im/mgomezjimenez/star-pairs](https://badges.gitter.im/mgomezjimenez/star-pairs.svg)](https://gitter.im/mgomezjimenez/star-pairs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/firpov/star-pairs3](https://badges.gitter.im/firpov/star-pairs3.svg)](https://gitter.im/firpov/star-pairs3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A static single web page application to project pairs of stars in real time and
 display information when mousing over them.
 
-[![Star pairs screenshot](https://github.com/mgomezjimenez/star-pairs/raw/master/screenshot.png??raw=true)](https://mgomezjimenez.github.io/star-pairs/)
+[![Star pairs screenshot](https://github.com/firpov/star-pairs3/raw/master/screenshot.png??raw=true)](https://firpov.github.io/star-pairs3/)
 
 
 This tool is used every evening at the [Gemini Observatory] to find a pair of
@@ -35,7 +35,7 @@ the telescope can be slewed.
 
 ## Installation
 
-There is a live version at https://mgomezjimenez.github.io/star-pairs/ but it
+There is a live version at https://firpov.github.io/star-pairs3/ but it
 can be run locally.
 
 1. Install a JavaScript package manager like [`yarn`] or [`npm`]. Your method of
@@ -62,7 +62,7 @@ can be run locally.
 1. Clone
 
    ```sh
-   $ git clone https://github.com/mgomezjimenez/star-pairs.git
+   $ git clone https://github.com/firpov/star-pairs3.git
    ```
 
 1. Run
@@ -98,7 +98,7 @@ can be run locally.
 
 You may reach us on Gitter
 
-[![Join the chat at https://gitter.im/mgomezjimenez/star-pairs](https://badges.gitter.im/mgomezjimenez/star-pairs.svg)](https://gitter.im/mgomezjimenez/star-pairs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/firpov/star-pairs3](https://badges.gitter.im/firpov/star-pairs3.svg)](https://gitter.im/firpov/star-pairs3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 or writing an email to:
 
