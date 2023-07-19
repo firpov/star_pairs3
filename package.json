@@ -13,7 +13,7 @@
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
-  "homepage": "https://mgomezjimenez.github.io/star-pairs",
+  "homepage": "https://firpov.github.io/star-pairs3",
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
       "prettier --single-quote --write",
