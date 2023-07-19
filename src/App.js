@@ -41,6 +41,35 @@ class App extends React.Component {
       info: p
     });
   }
+  handleStarDelete = () => {
+    const answer = prompt('Is this star a double? (Y/N)');
+
+    if (answer && answer.toLowerCase() === 'y') {
+        const deleteOption = prompt('Do you want to delete it from the list? (Y/N)');
+
+        if (deleteOption && deleteOption.toLowerCase() === 'y') {
+          const { info } = this.state;
+          const starID = info.stars[0].name; // Assuming you have a unique identifier for the star here
+
+          // Filter out the star with the specified ID from the pairs array
+          const updatedPairs = pairs.filter(p => p.stars[0].name !== starID);
+
+          // Update the state and possibly save the updated pairs to a file (if needed)
+          this.setState({
+            info: { stars: [{ name: null }, { name: null }] },
+          });
+
+        // Save the updated pairs to a file (if needed)
+        // ...
+
+        console.log('Star', starID, 'deleted from the list.');
+      } else {
+        console.log('Star', starID, 'not deleted.');
+      }
+    } else {
+      console.log('Star is not a double.');
+    }
+  };
 
   render() {
     // TODO: Cleaner way to do this?
