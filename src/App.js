@@ -42,10 +42,10 @@ class App extends React.Component {
     });
   }
   handleStarDelete = () => {
-    const answer = prompt('Is this star a double? (Y/N)');
+    const answer = prompt('Is this star a double? (y/n)');
 
     if (answer && answer.toLowerCase() === 'y') {
-        const deleteOption = prompt('Do you want to delete it from the list? (Y/N)');
+        const deleteOption = prompt('Do you want to delete it from the list? (y/n)');
 
         if (deleteOption && deleteOption.toLowerCase() === 'y') {
           const { info } = this.state;
